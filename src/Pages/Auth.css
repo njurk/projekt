@@ -1,0 +1,123 @@
+.page-auth {
+    display: flex;
+    height: calc(100vh - 6rem);
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #a1bfb6;
+    overflow-y: hidden;
+}
+
+.container-auth {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 30rem;
+    padding-block: 3rem;
+    padding-inline: 2rem;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.container-auth-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-self: center;
+}
+
+    .container-auth-header h2 {
+        align-self: center;
+        font-weight: 400;
+        font-family: Verdana, sans-serif;
+        margin-top: 3rem;
+    }
+
+.container-auth-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.container-auth-form {
+    height: 85%;
+    width: 85%;
+    font-family: Verdana, sans-serif;
+}
+
+    .container-auth-form h5 {
+        text-align: center;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .container-auth-form h6 {
+        text-align: end;
+        font-weight: 500;
+        font-size: small;
+        margin-top: -0.5rem;
+        color: #69a068;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .container-auth-form h7 {
+        color: #69a068;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+.container-auth-form-input {
+    height: 2rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid #808080;
+    margin-block: 1.5rem;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.container-auth-form-input:focus {
+    outline: none;
+}
+
+.container-auth-form-button {
+    height: 3rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #69a068;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+    .container-auth-form-button:hover {
+        background-color: #7bb585;
+    }
+
+.container-auth-form-checkbox {
+    margin-bottom: 1.5rem;
+}
+
+    .container-auth-form-checkbox input {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+    .container-auth-form-checkbox label {
+        align-content: center;
+        font-size: small;
+        color: #525252;
+        margin-left: 0.5rem;
+    }

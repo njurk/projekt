@@ -1,0 +1,143 @@
+.page-about {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+#container-about {
+    display: flex;
+    width: 70vw;
+    height: fit-content;
+    margin-inline: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+    #container-about img {
+        height: auto;
+        width: 50%;
+        min-width: 18rem;
+        margin-block: auto;
+        margin-inline: auto;
+    }
+
+    #container-about p {
+        font-size: 20px;
+        width: 90%;
+        line-height: 1.7;
+        text-align: justify;
+        align-self: center;
+    }
+
+    #container-about h1 {
+        font-size: 50px;
+        margin-block: 0.5rem;
+        align-self: center;
+        justify-self: center;
+    }
+
+    #container-about hr {
+        border: none;
+        margin-inline: 2rem;
+    }
+
+    #container-about .certificates {
+        height: auto;
+        width: 50%;
+        min-width: 28rem;
+        margin-block: auto;
+        margin-left: 3rem;
+    }
+
+.container-about-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+
+    .container-about-text h5 {
+        font-weight: 400;
+        font-size: 20px;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: justify;
+    }
+
+.container-about-influencers {
+    display: flex;
+    width: 70vw;
+    height: fit-content;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+    margin-inline: auto;
+}
+
+    .container-about-influencers img {
+        display: flex;
+        min-width: 34rem;
+        width: 90%;
+        height: auto;
+        align-self: center;
+        margin-inline: auto;
+        border-radius: 70px;
+    }
+
+img.about3 {
+    height: auto;
+    min-width: 25rem;
+    width: 160%;
+    margin-block: auto;
+    margin-right: 3rem;
+}
+
+h2.about-end {
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-navlink {
+    color: #00825d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .about-navlink:hover {
+        color: #25c89a;
+    }
+
+.container-about-end {
+    display: flex;
+    width: 70vw;
+    height: fit-content;
+    margin-inline: auto;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    border: 4px dotted #91a39886;
+    padding-block: 1rem;
+    padding-inline: 4rem;
+    border-radius: 1rem;
+}
+
+#container-about-styled {
+    width: 100vw;
+    height: fit-content;
+}
+
+.green {
+    width: inherit;
+    height: inherit;
+    background-color: #a7c0b186;
+}
+
+.yellow {
+    background-color: #f3f3e9;
+}

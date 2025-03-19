@@ -1,0 +1,120 @@
+.navbar {
+    display: inline-flex;
+    background-color: transparent;
+    align-items: center;
+    align-content:center;
+    align-self: center;
+    padding: 1rem 3rem;
+    width: 95%;
+    height: 4rem;
+    font-family: Dubai, Calibri, sans-serif;
+    color: #3f3f3f;
+}
+
+.nav-logo-button {
+    width: 230px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 2rem;
+    color: #181818;
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+    .nav-menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .nav-menu li {
+        position: relative;
+        cursor: pointer;
+        text-decoration: inherit;
+        width: auto;
+    }
+
+        .nav-menu li:hover::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: forestgreen;
+            position: absolute;
+            bottom: -8px;
+        }
+
+.nav-search {
+    display: flex;
+    padding: 3px;
+    border: 1px solid #808080;
+    border-radius: 60px;
+    background-color: white;
+    position: relative;
+    margin: 1rem auto 1rem auto;
+    align-items: center;
+    flex-grow: 0.5;
+}
+
+.nav-search-input {
+    border: none;
+    flex-grow: 1;
+    margin: 0.2rem 0.8rem;
+    font-size: 16px;
+}
+
+    .nav-search-input:focus {
+        outline: none;
+    }
+
+.nav-search-button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-right: 0.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url(/public/search.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .nav-search-button:hover {
+        transform: scale(1.2);
+        transition: 0.1s ease-in-out;
+    }
+
+.nav-login-button {
+    width: 130px;
+    height: 55px;
+    outline: none;
+    border: 1px solid #808080;
+    border-radius: 70px;
+    color: #181818;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+    margin-left: 2rem;
+    font-family: Calibri, sans-serif;
+    color: #3f3f3f;
+}
+
+   .nav-login-button:hover {
+        transform: scale(1.2);
+    }
